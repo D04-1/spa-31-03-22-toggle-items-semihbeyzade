@@ -6,6 +6,7 @@ const messageElem = document.querySelector('.message')
 btnToggleElem.addEventListener('click', () => {
     listGroupElem.classList.toggle('d-none')
     btnToggleElem.innerHTML = 'Hide destinations'
+    messageElem.innerHTML = ''
 
 })
 
